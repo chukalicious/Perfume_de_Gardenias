@@ -1,0 +1,47 @@
+
+body {
+	margin:auto; 	
+
+	display: flex;
+	flex-direction: column;
+	flex-direction: ;
+	font-family: 'Questrial', sans-serif;
+	max-width: 95%;
+
+}
+
+.header {
+	display: flex;
+	margin-top: 0;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: #F3DB47;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.li-de-nav {
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	padding: .5rem;
+}
+
+.jumbo {
+	width: 100%;
+	display: flex;
+	height: auto;
+}
+h1 {
+	font-family: old-standard, serif;
+	font-weight: bold;
+
+}
