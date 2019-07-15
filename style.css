@@ -19,7 +19,7 @@ body {
 .navbar {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	
 	width: 100%;
 	background-color: #F7DF4B;
 	/*position: fixed;
@@ -32,11 +32,17 @@ div.navbar ul {
 	margin-left: 0;
 }
 
+#img-header {
+	display: flex;
+
+}
+
 .li-de-nav {
 	display: inline-block;
 	text-transform: uppercase;
 	list-style: none;
 	padding: .5rem;
+	max-width: 
 }
 
 div.navbar ul li a {
