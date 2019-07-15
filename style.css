@@ -1,7 +1,5 @@
 
-body {
-	margin:auto; 	
-
+body { 	
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -22,10 +20,14 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
-	background-color: yellow ;
+	background-color: #F7DF4B;
 	position: fixed;
 	top: 0;
 
+}
+
+div.navbar ul {
+	margin-left: 0;
 }
 
 .li-de-nav {
@@ -61,4 +63,24 @@ h1 {
 	font-family: old-standard, serif;
 	font-weight: bold;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	display: flex;
+	width: 100%;
+	max-height: 20%;
+	background-color: #FAFAFA;
 }
