@@ -40,7 +40,7 @@ body {
 	background: url(img/hero.jpg);
 	background-size: cover;
 	width: 100%;
-	max-height: 35%;
+	max-height: 25%;
 	object-fit: contain;
 }
 
