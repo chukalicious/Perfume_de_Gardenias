@@ -12,12 +12,13 @@ body {
 
 .header {
 	display: flex;
+	flex-direction: column;
 	margin-top: 0;
 }
 
 .navbar {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 100%;
 	background-color: #F3DB47;
 }
