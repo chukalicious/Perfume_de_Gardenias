@@ -1,11 +1,11 @@
 
 body { 	
 	display: flex;
-	justify-content: center;
+	margin: auto;
 	flex-direction: column;
 	flex-direction: ;
 	font-family: 'Questrial', sans-serif;
-	max-width: 95%;
+	max-width: 75%;
 
 }
 
@@ -13,13 +13,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-top: 5%;
+	width: 100%;
 }
 
 .navbar {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 100%;
+	
 	background-color: #F7DF4B;
 	position: fixed;
 	top: 0;
@@ -80,7 +81,43 @@ h1 {
 
 footer {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
-	max-height: 20%;
+	margin: auto;
 	background-color: #FAFAFA;
 }
+
+.footer-img {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.derechos {
+	color: #999999;
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.credits {
+	display: flex;
+	align-content: flex-end;
+	color: #525252;
+	font-size: xx-small;
+
+}
+
+.credits a {
+text-decoration: none;
+color: #000;
+}
+
+
+
+
+
+
+
+
+
