@@ -36,10 +36,11 @@ body {
 	padding: .5rem;
 }
 
-.jumbo {
-	width: 100%;
-	display: flex;
-	height: auto;
+.jumbotron {
+	background: url(img/hero.jpg);
+	background-size: cover;
+	
+
 }
 
 h1 {
