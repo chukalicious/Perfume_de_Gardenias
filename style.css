@@ -3,6 +3,7 @@ body {
 	margin:auto; 	
 
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	flex-direction: ;
 	font-family: 'Questrial', sans-serif;
@@ -13,20 +14,18 @@ body {
 .header {
 	display: flex;
 	flex-direction: column;
-	margin-top: 0;
+	margin-top: 5%;
 }
 
 .navbar {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	width: 100%;
-	background-color: #F3DB47;
-}
-
-.sticky {
+	background-color: yellow ;
 	position: fixed;
 	top: 0;
-	width: 100%;
+
 }
 
 .li-de-nav {
@@ -40,7 +39,7 @@ body {
 	background: url(img/hero.jpg);
 	background-size: cover;
 	width: 100%;
-	max-height: 25%;
+	max-height: 15%;
 	object-fit: contain;
 }
 
