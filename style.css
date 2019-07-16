@@ -34,6 +34,7 @@ body {
 	width: 15%;
 	object-fit: contain;
 	margin: auto;
+	padding-left: 4em;
 
 }
 
@@ -50,8 +51,7 @@ body {
 	text-transform: uppercase;
 	list-style: none;
 	padding: .5rem;
-	max-width: 25%;
-	
+	max-width: 25%;	
 }
 
 .div-en-nav a {
