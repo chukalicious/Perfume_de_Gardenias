@@ -18,8 +18,8 @@ body {
 
 .navbar {
 	display: flex;
-	flex-direction: column;
-	
+	flex-direction: row;
+	justify-content: space-between;
 	width: 100%;
 	background-color: #F7DF4B;
 	/*position: fixed;
@@ -28,26 +28,31 @@ body {
 
 }
 
-div.navbar ul {
-	margin-left: 0;
-}
-
 #img-header {
 	display: flex;
+	max-width: 50px;
 
 }
 
-.li-de-nav {
-	display: inline-block;
+.div-en-nav {
+	display: flex;
 	text-transform: uppercase;
 	list-style: none;
 	padding: .5rem;
-	max-width: 
+	max-width: 25%;
 }
 
-div.navbar ul li a {
+.div-en-nav a {
 	color: #000;
 	text-decoration: none;
+}
+
+.portada {
+	margin-left: 1em;
+}
+
+.cart {
+	margin-right: 1em;
 }
 
 .jumbotron {
