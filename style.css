@@ -19,7 +19,7 @@ body {
 .navbar {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	width: 100%;
 	background-color: #F7DF4B;
 	/*position: fixed;
@@ -30,6 +30,7 @@ body {
 
 #img-header-container {
 	display: flex;
+	align-items: center;
 	width: 15%;
 	object-fit: contain;
 	margin: auto;
@@ -45,6 +46,7 @@ body {
 
 .div-en-nav {
 	display: flex;
+	align-items: left;
 	text-transform: uppercase;
 	list-style: none;
 	padding: .5rem;
@@ -62,9 +64,14 @@ body {
 	margin-right: 1em;
 }
 
+.detalles {
+	
+	margin-left: 1em;
+}
+
 .cart {
 	margin-right: 1em;
-	margin-right: 1em;
+	margin-left: 1em;
 }
 
 .jumbotron {
