@@ -150,6 +150,24 @@ color: #000;
 
 ----------------------------------------*/
 
+/* ----- Comment to myself and to delete before deliver:
+When to use min or max-width
+You can set your breakpoints in different ways using min-width, max-width, or even by combining both. 
+
+But the question is, when should you use each one? 
+
+To answer it in a simple way, if you are designing your layout with a mobile-first 
+approach, then use min-width breakpoints and work your way up.
+
+Set your default styles for the small device and just adjust for 
+larger devices accordingly.
+
+Likewise, if you are designing for larger devices first, then set your 
+default CSS as you normally would and adjust for smaller devices 
+with the max-width approach.*/
+
+
+
 @media (min-width: 640px){
  
 ...
