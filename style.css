@@ -167,6 +167,13 @@ default CSS as you normally would and adjust for smaller devices
 with the max-width approach.*/
 
 
+@media (min-width: 320px){
+ 
+...
+ 
+}
+
+
 
 @media (min-width: 640px){
  
