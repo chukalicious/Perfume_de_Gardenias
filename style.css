@@ -1,146 +1,8 @@
 
-body { 	
-	display: flex;
-	margin: auto;
-	flex-direction: column;
-	font-family: 'Questrial', sans-serif;
-	max-width: 95%;
-
-}
-
-.header {
-	display: flex;
-	flex-direction: column;
-	margin-top:0;
-	max-width: 100%;
-
-}
-
-.navbar {
-	display: flex;
-	flex-direction: row;
-	/*justify-content: space-between;*/
-	width: 100%;
-	background-color: #F7DF4B;
-	/*position: fixed;
-	top: 0;*/
-	overflow: hidden;
-	max-height: 10%;
-}
-
-#img-header-container {
-	display: flex;
-	align-items: center;
-	width: 15%;
-	object-fit: contain;
-	margin: auto;
-	padding-left: 4em;
-
-}
-
-.img-header {
-	max-width: 100%;
-  	max-height: 100%;
-  	margin: auto;
-  	display: block;
-}
-
-.div-en-nav {
-	display: flex;
-	align-items: left;
-	text-transform: uppercase;
-	list-style: none;
-	padding: .5rem;
-	max-width: 25%;	
-}
-
-.div-en-nav a {
-	color: #000;
-	text-decoration: none;
-}
-
-.portada {
-	margin-left: 1em;
-	margin-right: 1em;
-}
-
-.detalles {
-	
-	margin-left: 1em;
-}
-
-.cart {
-	margin-right: 1em;
-	margin-left: 1em;
-}
-
-.jumbotron {
-	width: 100%;
-	max-height: 15%;
-	object-fit: contain;
-}
-
-
-.for-jumbotron {
-	max-width: 100%;
-  	max-height: 100%;
-  	margin: auto;
-  	display: block;
-
-}
-
-h1 {
-	font-family: old-standard, serif;
-	font-weight: bold;
-
-}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-footer {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	margin: auto;
-	background-color: #FAFAFA;
-}
-
-.footer-img {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-}
-
-.derechos {
-	color: #999999;
-	display: flex;
-	justify-content: center;
-	margin-top: 1rem;
-}
-
-.credits {
-	display: flex;
-	color: #525252;
-	font-size: xx-small;
-
-}
-
-.credits a {
-text-decoration: none;
-color: #000;
-}
 
 
 
@@ -167,9 +29,35 @@ default CSS as you normally would and adjust for smaller devices
 with the max-width approach.*/
 
 
-@media (min-width: 320px){
+@media (max-width: 400px){
  
-...
+
+body {
+	background-color: #f09a9d; 
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	margin-top:0;
+	max-width: 100%;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	
+	/*justify-content: space-between;*/
+	width: 100%;
+	background-color: #F7DF4B;
+	/*position: fixed;
+	top: 0;*/
+	overflow: hidden;
+	max-height: 10%;
  
 }
 
