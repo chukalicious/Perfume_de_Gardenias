@@ -1,5 +1,56 @@
+body {
+    /*max-width: 400px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex direction: column;
+	margin: auto;
+	font-size: 2rem;
+}
 
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 100%;
+/*	background-color: yellow;
+*/}
 
+/* ----------------------------
+
+        BARRA DE NAVEGACION  
+ ------------------------------*/
+
+.navbar {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+}
+
+.menu-button{
+	display: flex;
+	flex-direction: row;
+	max-height: 2rem;
+	margin-top: .5rem;
+	padding: .5rem;
+}
+
+ .navbar li {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	list-style: none;
+ 	padding-right: .25rem;
+ 	padding-left: .25rem;
+
+ }
+
+.navbar li a {
+	text-decoration: none;
+	color: #999999;
+}
 
 
 
@@ -12,9 +63,10 @@
 
 ----------------------------------------*/
 
-/* ----- Comment to myself and to delete before deliver:
+/* ----- Comment to myself and to delete before delivery:
 When to use min or max-width
-You can set your breakpoints in different ways using min-width, max-width, or even by combining both. 
+You can set your breakpoints in different ways using min-width, max-width, 
+or even by combining both. 
 
 But the question is, when should you use each one? 
 
@@ -33,33 +85,14 @@ with the max-width approach.*/
  
 
 body {
+	max-width: 400px;
 	background-color: #f09a9d; 
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 100%;
+	
 	margin: 0;
 }
 
-.header {
-	display: flex;
-	flex-direction: column;
-	margin-top:0;
-	max-width: 100%;
-}
-
-.navbar {
-	display: flex;
-	flex-direction: row;
-	
-	/*justify-content: space-between;*/
-	width: 100%;
-	background-color: #F7DF4B;
-	/*position: fixed;
-	top: 0;*/
-	overflow: hidden;
-	max-height: 10%;
- 
-}
 
 
 
