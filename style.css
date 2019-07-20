@@ -11,7 +11,6 @@
 
 .section {
 	width: 100%;
-	height: ;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,8 +21,31 @@
 }
 
 .menu {
-	background-color: #5995da;
+	background-color: #F3DB47;
 	height: 80px;
+}
+
+.jumbotron {
+
+}
+
+.jumbotron-img {
+	display: flex;
+	width: 100%;
+}
+
+.navbar-ul{
+	display: flex;
+	flex-direction: inline-block;
+	align-items: right;
+	width: 100%;
+	text-decoration: none;
+	list-style: none;
+}
+
+.navbar-item{
+	padding: .5rem;
+	margin: auto;
 }
 
 .content {
@@ -40,19 +62,26 @@
 .feature-1 {
 	background-color: #f5cf8e;
 	flex-direction: column;
-	height: 35%; /*Temp Fix*/
+	height: 40%; /*Temp Fix*/
 }
 
 .feature-2 {
 	background-color: #f09a9d;
 	flex-direction: column; 
-	height: 35%; /*Temp Fix*/
+	height: 40%; /*Temp Fix*/
 }
 
 .feature-3 {
 	background-color: #c8c6fa;
 	flex-direction: column;
-	height: 35%; /*Temp Fix*/
+	height: 40%; /*Temp Fix*/
+}
+
+.feature-img {
+	display: flex;
+	width: 100%;
+
+
 }
 
 
