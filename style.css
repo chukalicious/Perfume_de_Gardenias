@@ -32,6 +32,10 @@
 	height: 600px;
 }
 
+.sign-up {
+	background-color: #D6E9FE;
+}
+
 .feature-1 {
 	background-color: #f5cf8e;
 	flex-direction: column;
