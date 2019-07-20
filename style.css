@@ -11,7 +11,7 @@
 
 .section {
 	width: 100%;
-	height: 300px;
+	height: ;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -29,7 +29,8 @@
 .content {
 	flex-direction: column;
 	background-color: #eaedf0;
-	height: 600px;
+	/*height: 600px;*/ /*Temp commented out*/
+	height: 55%;
 }
 
 .sign-up {
@@ -39,16 +40,19 @@
 .feature-1 {
 	background-color: #f5cf8e;
 	flex-direction: column;
+	height: 35%; /*Temp Fix*/
 }
 
 .feature-2 {
 	background-color: #f09a9d;
-	flex-direction: column;
+	flex-direction: column; 
+	height: 35%; /*Temp Fix*/
 }
 
 .feature-3 {
 	background-color: #c8c6fa;
 	flex-direction: column;
+	height: 35%; /*Temp Fix*/
 }
 
 
