@@ -26,6 +26,10 @@ h5 {
 	font-size: 1em;
 }
 
+a {
+	text-decoration: none;
+}
+
 .page {
 	display: flex;
 	flex-wrap: wrap;
@@ -116,10 +120,21 @@ Cuerpo de la pagina
 .film-info {
 	display: flex;
 	background-color: #F2F2F2;
+	text-align: left;
+}
+
+#gardenias-info {
+	padding: 1.5em;
+	font-size: x-large;
+}
+
+#film-sec-span {
+	font-family: 'Lora', sans-serif;
+	font-weight: bolder;
+	text-align: center;
 }
 
 #conoce-button {
-	display: flex;
 	background-color: #000;
 	color: #fff;
 	font-family: 'Work Sans', sans-serif;
@@ -135,28 +150,24 @@ Cuerpo de la pagina
 }
 
 .feature-1 {
-	background-color: #f5cf8e;
 	flex-direction: column;
 	height: 40%; /*Temp Fix*/
 	text-align: center;
 }
 
 .feature-2 {
-	background-color: #f09a9d;
 	flex-direction: column; 
 	height: 40%; /*Temp Fix*/
 	text-align: center;
 }
 
 .feature-3 {
-	background-color: #c8c6fa;
 	flex-direction: column;
 	height: 40%; /*Temp Fix*/
 	text-align: center;
 }
 
 .feature-4 {
-	background-color: #c8c6fa;
 	flex-direction: column;
 	height: 40%; /*Temp Fix*/
 	text-align: center;
@@ -165,7 +176,24 @@ Cuerpo de la pagina
 .feature-img {
 	display: flex;
 	width: 100%;
+}
 
+.precio {
+	padding: .5em;
+}
+
+.opciones {
+	padding-bottom: 1em;
+	text-align: justify;
+}
+
+.buy-button {
+	color: #CD822A;
+	background-color: #fff;
+	border: 1px solid ;
+	text-transform: uppercase;
+	padding: .5em 1.5em;
+	font-size: 1.5em;
 
 }
 
