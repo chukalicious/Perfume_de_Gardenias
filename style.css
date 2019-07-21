@@ -1,12 +1,35 @@
+/* ------------------------------------------
+Font Types
+
+font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif;
+---------------------------------------------*/
+
+/*-------------------------------------------
+
+Setting basico etrutural de la pagina        
+--------------------------------------------*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Lora', serif;
+}
+
+h5 {
+	font-weight: bolder;
+	font-size: 1em;
 }
 
 .page {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 1em;
 }
 
 .section {
@@ -14,24 +37,31 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1em;
 }
 
+/*--------------------------------
+
+Header Elements                  
+----------------------------------*/
+
 .header {
-	background-color: #b2d6ff;
+	text-align: center;
+	padding: 1rem;
+}
+
+#header-uppercase {
+	text-transform: uppercase;
+	font-family: 'Lora', serif;	
+}
+
+#header-em {
+	font-style: italic;
+	font-family: 'Lora', serif;
 }
 
 .menu {
-	background-color: #F3DB47;
 	height: 80px;
-}
-
-.jumbotron {
-
-}
-
-.jumbotron-img {
-	display: flex;
-	width: 100%;
 }
 
 .navbar-ul{
@@ -48,11 +78,56 @@
 	margin: auto;
 }
 
+/*--------------------------------
+
+Cuerpo de la pagina               
+---------------------------------*/
+
+.jumbotron {
+
+}
+
+.jumbotron-img {
+	display: flex;
+	width: 100%;
+}
+
 .content {
 	flex-direction: column;
 	background-color: #eaedf0;
-	/*height: 600px;*/ /*Temp commented out*/
-	height: 55%;
+	height: 55%; /*Temp fix*/
+}
+
+.expo {
+	text-align: center;
+	background-color: #fff;
+}
+
+#span-expo {
+	font-weight: bolder;
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+
+#film-info-title {
+	text-align: center;
+}
+
+.film-info {
+	display: flex;
+	background-color: #F2F2F2;
+}
+
+#conoce-button {
+	display: flex;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	font-size: large;
+}
+
+.participar {
+	background-color: #fff;
 }
 
 .sign-up {
@@ -63,18 +138,28 @@
 	background-color: #f5cf8e;
 	flex-direction: column;
 	height: 40%; /*Temp Fix*/
+	text-align: center;
 }
 
 .feature-2 {
 	background-color: #f09a9d;
 	flex-direction: column; 
 	height: 40%; /*Temp Fix*/
+	text-align: center;
 }
 
 .feature-3 {
 	background-color: #c8c6fa;
 	flex-direction: column;
 	height: 40%; /*Temp Fix*/
+	text-align: center;
+}
+
+.feature-4 {
+	background-color: #c8c6fa;
+	flex-direction: column;
+	height: 40%; /*Temp Fix*/
+	text-align: center;
 }
 
 .feature-img {
