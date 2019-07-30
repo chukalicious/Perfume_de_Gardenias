@@ -7,7 +7,7 @@ font-family: 'Work Sans', sans-serif;
 
 /*-------------------------------------------
 
-Setting basico etrutural de la pagina        
+Setting basico estructural de la pagina        
 --------------------------------------------*/
 
 * {
@@ -115,6 +115,7 @@ Cuerpo de la pagina
 
 #film-info-title {
 	text-align: center;
+	font-size: xx-large;
 }
 
 .film-info {
@@ -124,8 +125,9 @@ Cuerpo de la pagina
 }
 
 #gardenias-info {
-	padding: 1.5em;
+	padding: 1em;
 	font-size: x-large;
+	text-align: center;
 }
 
 #film-sec-span {
@@ -135,19 +137,28 @@ Cuerpo de la pagina
 }
 
 #conoce-button {
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
 	font-size: large;
+	font-weight: bolder;
+	border: #000 .1em solid;
 }
 
 .participar {
 	background-color: #fff;
+	text-align: justify;
 }
 
 .sign-up {
 	background-color: #D6E9FE;
 }
+
+/*--------------------------------------
+          OPCIONES PARA CONCURSAR 
+            (FEATURES SECTION)      
+---------------------------------------*/
 
 .feature-1 {
 	flex-direction: column;
@@ -194,7 +205,78 @@ Cuerpo de la pagina
 	text-transform: uppercase;
 	padding: .5em 1.5em;
 	font-size: 1.5em;
+}
 
+
+/*---------------------------------
+
+		PREMIOS
+
+-----------------------------------*/
+
+
+.premios {
+	background-color: #fff;
+	text-align: justify;
+}
+
+.primer-premio,
+.segundo-premio {
+	background-color: #fff;
+	text-align: justify;
+}
+
+/*---------------------------------
+
+Reglas
+
+-----------------------------------*/
+
+
+.header-reglas {
+
+}
+
+.reglas-wrapper{
+	padding: 1em;
+	flex-direction: column;
+}
+
+.parrafo-reglas {
+	padding: .5em;
+}
+
+.lista-de-reglas {
+	list-style-type: upper-roman;
+	padding: .5em;
+}
+
+
+/*-------------------------------------
+ 
+ Footer
+
+----------------------------------------*/
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	height: 35%;
+	align-items: center;
+	text-align: center;
+	background-color: #FAFAFA;
+}
+
+#footer-text {
+	font-family: 'Lora', serif;
+	font-size: xx-small;
+}
+
+.footer-img {
+	display: flex;
+	width: 100%;
+	padding: 1.5em;
+	align-items: center;
 }
 
 
