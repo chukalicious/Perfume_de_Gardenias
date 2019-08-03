@@ -146,11 +146,6 @@ Cuerpo de la pagina
 	border: #000 .1em solid;
 }
 
-.participar {
-	background-color: #fff;
-	text-align: justify;
-}
-
 .sign-up {
 	background-color: #D6E9FE;
 }
@@ -159,6 +154,10 @@ Cuerpo de la pagina
           OPCIONES PARA CONCURSAR 
             (FEATURES SECTION)      
 ---------------------------------------*/
+.participar {
+	background-color: #fff;
+	text-align: justify;
+}
 
 .feature-1 {
 	flex-direction: column;
@@ -187,6 +186,13 @@ Cuerpo de la pagina
 .feature-img {
 	display: flex;
 	width: 100%;
+}
+
+.individual-wrapping {
+	/*background-color: gray;
+	border: solid black 1px;*/
+	padding: 1em;
+
 }
 
 .precio {
@@ -237,9 +243,18 @@ Reglas
 
 }
 
-.reglas-wrapper{
-	padding: 1em;
+.reglas {
 	flex-direction: column;
+	height: 200px;
+	overflow: scroll;
+	padding: 1em;
+	background-color: #fff;
+}
+
+.reglas-wrapper{
+	
+	
+	
 }
 
 .parrafo-reglas {
@@ -303,9 +318,53 @@ Likewise, if you are designing for larger devices first, then set your
 default CSS as you normally would and adjust for smaller devices 
 with the max-width approach.*/
 
+/* ----- Tablet Size ---------*/
 
-@media (max-width: 400px){
- 
+@media only screen and (min-width: 401px) and (max-width: 960px){
+ 	.participar {
+ 		display: flex; 		
+ 	}
+
+ 	.feature-wrap {
+ 		display: flex;
+ 		flex-direction: row;
+ 		flex-wrap: wrap;
+
+ 	}
+
+	.feature-1,
+	.feature-2,
+	.feature-3,
+	.feature-4 {
+		width: 33%;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.feature-1{
+		order: 
+	}
+
+	.feature-2{
+		order: 
+	}
+
+	.feature-3{
+		order: ;
+	}
+
+	.feature-4{
+		order: 
+	}
+
+	#opcion-velon {
+		margin-top: 3.75em;
+	}
+
+	#opcion-taquilla {
+		margin-top: .5em;
+		text-align: left;
+	}
 
 }
 
