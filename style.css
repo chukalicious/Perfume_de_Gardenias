@@ -120,8 +120,8 @@ Cuerpo de la pagina
 
 .film-info {
 	display: flex;
-	background-color: #F2F2F2;
 	text-align: left;
+	background-color: #fff;
 }
 
 #gardenias-info {
@@ -144,6 +144,8 @@ Cuerpo de la pagina
 	font-size: large;
 	font-weight: bolder;
 	border: #000 .1em solid;
+	width: 65%;
+	margin: auto;
 }
 
 .sign-up {
@@ -189,8 +191,6 @@ Cuerpo de la pagina
 }
 
 .individual-wrapping {
-	/*background-color: gray;
-	border: solid black 1px;*/
 	padding: 1em;
 
 }
@@ -247,8 +247,9 @@ Reglas
 	flex-direction: column;
 	height: 200px;
 	overflow: scroll;
-	padding: 1em;
+	padding: 2em;
 	background-color: #fff;
+	margin-bottom: 1em;
 }
 
 .reglas-wrapper{
@@ -265,6 +266,8 @@ c
 	list-style-type: upper-roman;
 	padding: .5em;
 }
+
+
 
 
 /*-------------------------------------
@@ -318,6 +321,8 @@ Likewise, if you are designing for larger devices first, then set your
 default CSS as you normally would and adjust for smaller devices 
 with the max-width approach.*/
 
+
+
 /* ----- Tablet Size ---------*/
 
 @media only screen and (min-width: 415px) and (max-width: 960px){
@@ -341,22 +346,6 @@ with the max-width approach.*/
 		flex-wrap: wrap;
 	}
 
-	.feature-1{
-		order: 
-	}
-
-	.feature-2{
-		order: 
-	}
-
-	.feature-3{
-		order: ;
-	}
-
-	.feature-4{
-		order: 
-	}
-
 	#opcion-velon {
 		margin-top: 3.75em;
 	}
@@ -368,7 +357,38 @@ with the max-width approach.*/
 
 }
 
+/* ------ Desktop Styles ---------------*/
 
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 33.3%;
+  }
+ /* .header {
+    height: 400px;
+  }*/
+
+  .feature-wrap {
+ 		display: flex;
+ 		flex-direction: row;
+ 		flex-wrap: wrap;
+
+ 	}
+
+ 	#opcion-velon {
+		margin-top: 5.50em;
+	}
+
+	#opcion-taquilla {
+		margin-top: 1.47em;
+		text-align: center;
+	}
+}
 
 @media (min-width: 640px){
  
