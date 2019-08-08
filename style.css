@@ -52,6 +52,11 @@ Header Elements
 .header {
 	text-align: center;
 	padding: 1rem;
+	font-size: 40px;
+}
+
+.header-text {
+	font-size: 35px;
 }
 
 #header-uppercase {
@@ -98,13 +103,18 @@ Cuerpo de la pagina
 
 .content {
 	flex-direction: column;
-	background-color: #eaedf0;
 	height: 55%; /*Temp fix*/
 }
 
 .expo {
+	margin: auto;
 	text-align: center;
 	background-color: #fff;
+	width: 75%;
+}
+
+#expo-h3 {
+	font-size: 25px;
 }
 
 #span-expo {
@@ -146,6 +156,14 @@ Cuerpo de la pagina
 	border: #000 .1em solid;
 	width: 65%;
 	margin: auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+
+}
+
+.btn:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sign-up {
@@ -211,6 +229,15 @@ Cuerpo de la pagina
 	text-transform: uppercase;
 	padding: .5em 1.5em;
 	font-size: 1.5em;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+}
+
+.btn-buy:hover {
+	background-color: #F3DB47;
+	color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -226,9 +253,16 @@ Cuerpo de la pagina
 	text-align: justify;
 }
 
+.premios-wrap {
+	background-color: lightblue;
+}
+
+#premios-h2 {
+	text-align: center;
+}
 .primer-premio,
 .segundo-premio {
-	background-color: #fff;
+	
 	text-align: justify;
 }
 

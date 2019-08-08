@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/raven.png">
 
 	<title>Perfume de Gardenias</title>
 </head>
@@ -27,12 +28,12 @@
 			</div>
 			<div class="content section expo">
 					<h1 class="header-text"><span id="header-uppercase">Prepara tu funeral</span> como <span id="header-em">Perfume de Gardenias</span></h1>
-						<h3>Participa en nuestro concurso y apoya la realización de la película puertorriqueña <span id="span-expo">Perfume de Gardenias</span></h3>
+						<h3 id="expo-h3">Participa en nuestro concurso y apoya la realización de la película puertorriqueña <span id="span-expo">Perfume de Gardenias</span></h3>
 			</div>
 			<div class="content section film-info">
 				<h2 id="film-info-title">¿Qué es Perfume de Gardenias?</h2>
 					<p id="gardenias-info"><span id="film-sec-span">Perfume de Gardenias</span> es un largometraje de ficción que cuenta la historia de Isabel, una mujer mayor que florece al convertirse en decoradora de funerales peculiares.</p>
-					<a href="#" alt="Conoce mas"><button type="button" class="section" id="conoce-button">Conoce sobre nuestra pelicula Perfume de Gardenias</button></a>
+					<a href="#" alt="Conoce mas"><button type="button" name="Conoce mas" class="section btn" id="conoce-button">Conoce sobre nuestra pelicula Perfume de Gardenias</button></a>
 			</div>
 			<div class="content section participar">
 				<h2>&#191;Cómo participar?</h2>
@@ -43,7 +44,7 @@
 									<img src="img/camiseta.jpg" alt="Camiseta" class="feature-img">
 											<h4 class="opciones">Compra una camiseta de PERFUME DE GARDENIAS por $25 y obt&eacute;n 2 participaciones</h4>
 												<h4 class="precio">$25 - Camiseta</h4>
-													<a href="#" alt="Comprar"><button type="button" class="buy-button">Comprar</button></a>
+													<a href="#" alt="Comprar"><button type="button" class="buy-button btn-buy">Comprar</button></a>
 								</div>
 							</div>	
 							<div class="section feature-2">
@@ -51,7 +52,7 @@
 										<img src="img/velon.jpg" alt="Velon" class="feature-img">
 											<h4 class="opciones" id="opcion-velon">Compra un velón especial por $15 y obt&eacute;n 1 participación</h4>
 											<h4 class="precio">$15 - Velón</h4>
-												<a href="#" alt="Comprar"><button type="button" class="buy-button">Comprar</button></a>
+												<a href="#" alt="Comprar"><button type="button" class="buy-button btn-buy">Comprar</button></a>
 									</div>
 							</div>
 							<div class="section feature-3">
@@ -59,7 +60,7 @@
 									<img src="img/taquilla.jpg" alt="Boleto de Participacion" class="feature-img">
 											<h4 class="opciones" id="opcion-taquilla">Compra una participación por $5</h4>
 												<h4 class="precio">$5 - Participación sorteo</h4>
-													<a href="#" alt="Comprar"><button type="button" class="buy-button">Comprar</button></a>
+													<a href="#" alt="Comprar"><button type="button" class="buy-button btn-buy">Comprar</button></a>
 								</div>
 							</div>
 							<!-- <div class="section feature-4">
@@ -78,28 +79,30 @@
 			
 			
 			<div class="section content premios">
-				<h2>Detales de los premios:</h2>
-					<div class="section content primer-premio">
-						<h3>Primer premio:</h3>
-							<h4>Un (1) Servicio Velación Tradicional del Grupo Funerario del Caribe, Inc. que incluye:</h4>
-								<p>Servicios Básicos del Director Funeral, Recogido y traslado del cuerpo en el área metropolitana, Embalsamamiento, Otros preparativos del cuerpo, Uso de facilidades de capillas, Coche Fúnebre, Paquete Memorial  [Incluye recordatorios, libro de firma, gratitud], Documentación, Certificado de Defunción, Permiso de Entierro, Ataúd metal 20 gauge (colores a escoger).</p>
-									<ul>
-										<li>Lugar de velación podrá ser entre casa, iglesia de su preferencia o funeraria dentro de las participantes (al momento de redimirse) de la alianza del Grupo Funerario del Caribe, Inc.</li>
-										<li>No incluye transportación a forense</li>
-										<li>No incluye coche floral</li>
-									</ul>
-										<p>Este premio tiene un <span>entre $5,000 y $10,000</span>. Premio es transferible. </p>
-					</div>
-					<div class="section content segundo-premio">
-						<h3>Segundo Premio:</h3>
-							<h4> Un (1) Servicio Cremación Biodegradable del Grupo Funerario del Caribe, Inc. que incluye:</h4>
-								<p>Servicios Básicos del Director Funeral, Recogido y Traslado, Cremación, Bolso para cenizas, Urna Biodegradable Geos, Ceremonia de Disposición Básica en tierra o mar, Permisos y Documentación.</p>
-									<ul>
-										<li>Si la disposición es en mar no incluye embarcación.</li>
-										<li>No incluye urna de cenizas.</li>
-									</ul>
-										<p>Este premio tiene un <span>valor estimado de $2,500</span>. Premio es transferible.</p>
-					</div>
+				<div class="premios-wrap">
+					<h2 id="premios-h2">Detalles de los premios:</h2>
+						<div class="section content primer-premio">
+							<h3>Primer premio:</h3>
+								<h4>Un (1) Servicio Velación Tradicional del Grupo Funerario del Caribe, Inc. que incluye:</h4>
+									<p>Servicios Básicos del Director Funeral, Recogido y traslado del cuerpo en el área metropolitana, Embalsamamiento, Otros preparativos del cuerpo, Uso de facilidades de capillas, Coche Fúnebre, Paquete Memorial  [Incluye recordatorios, libro de firma, gratitud], Documentación, Certificado de Defunción, Permiso de Entierro, Ataúd metal 20 gauge (colores a escoger).</p>
+										<ul>
+											<li>Lugar de velación podrá ser una residencia, iglesia de su preferencia o una de las funerarias participantes (al momento de redimirse) de la alianza del Grupo Funerario del Caribe, Inc.</li>
+											<li>No incluye transportación a forense</li>
+											<li>No incluye coche floral</li>
+										</ul>
+											<p>Este premio tiene un <span>entre $5,000 y $10,000</span>. Premio es transferible. </p>
+						</div>
+						<div class="section content segundo-premio">
+							<h3>Segundo Premio:</h3>
+								<h4> Un (1) Servicio Cremación Biodegradable del Grupo Funerario del Caribe, Inc. que incluye:</h4>
+									<p>Servicios Básicos del Director Funeral, Recogido y Traslado, Cremación, Bolso para cenizas, Urna Biodegradable Geos, Ceremonia de Disposición Básica en tierra o mar, Permisos y Documentación.</p>
+										<ul>
+											<li>Si la disposición es en mar no incluye embarcación.</li>
+											<li>No incluye urna de cenizas.</li>
+										</ul>
+											<p>Este premio tiene un <span>valor estimado de $2,500</span>. Premio es transferible.</p>
+						</div>
+				</div>
 			</div>
 
 				<div class="section content reglas">
