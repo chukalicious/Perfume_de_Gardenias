@@ -17,6 +17,11 @@ Setting basico estructural de la pagina
   font-family: 'Work Sans', sans-serif;
 }
 
+body {
+	width: 100%;
+	margin: auto;
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Lora', serif;
 }
@@ -52,7 +57,7 @@ Header Elements
 .header {
 	text-align: center;
 	padding: 1rem;
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .header-text {
@@ -93,7 +98,7 @@ Cuerpo de la pagina
 ---------------------------------*/
 
 .jumbotron {
-
+	width: 100%;
 }
 
 .jumbotron-img {
@@ -259,11 +264,28 @@ Cuerpo de la pagina
 
 #premios-h2 {
 	text-align: center;
+	padding-top: 1em;
 }
+
+.premios-sub {
+	font-weight: 900;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
 .primer-premio,
 .segundo-premio {
 	
 	text-align: justify;
+	padding: .5em;
+}
+
+
+
+.lista-de-premios {
+	text-indent: 1em;
+	list-style-position: inside; 
 }
 
 /*---------------------------------
@@ -274,24 +296,23 @@ Reglas
 
 
 .header-reglas {
-
+	font-size: 35px;
+	padding-left: .5em;
 }
 
 .reglas {
-	flex-direction: column;
-	height: 200px;
-	overflow: scroll;
-	padding: 2em;
-	background-color: #fff;
-	margin-bottom: 1em;
+	padding: .25em;
 }
 
 .reglas-wrapper{
-	
-	
-	
+	background-color: #fff;
+	flex-direction: column;
+	/*margin-bottom: 1em;*/
+	padding: 2em;
+	height: 200px;
+	overflow: scroll;	
 }
-c 
+
 .parrafo-reglas {
 	padding: .5em;
 }
